@@ -5,6 +5,7 @@ import Tracker from './Components/Tracker/Tracker';
 import Grid from '@mui/material/Grid';
 import FoodList from "./Components/FoodList/FoodList";
 import FoodPlaces from "./Components/FoodPlaces/FoodPlaces";
+import About from './Components/About/About.js';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             </Grid>
         </Grid>
       <Background></Background>
+      <About></About>
     </div>
   );
 }
