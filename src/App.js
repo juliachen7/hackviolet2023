@@ -7,14 +7,14 @@ import FoodList from "./Components/FoodList/FoodList";
 import FoodPlaces from "./Components/FoodPlaces/FoodPlaces";
 import About from './Components/About/About.js';
 import Name from './Components/Name/Name.js';
-import Features from './Components/Features/Features';
+import Features from './Components/Features/Features.js'
 
 function App() {
   return (
     <div className="App">
-      {/* <Timeline></Timeline> */}
-      <Features></Features>
-      {/* <Name></Name> */}
+      <Timeline></Timeline>
+      <About></About>
+      <Name></Name>
         {/* <Grid container spacing={2}>
             <Grid item xs={5} md={5}>
                 <Grid container spacing={0}>
@@ -33,8 +33,7 @@ function App() {
                 <Tracker></Tracker>
             </Grid>
         </Grid> */}
-      {/* <Background></Background> */}
-      {/* <About></About> */}
+      <Background></Background>
     </div>
   );
 }

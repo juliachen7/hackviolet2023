@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import {Button, ButtonGroup} from "@mui/material";
 import { createTheme } from '@mui/material/styles';
 
 const FoodList = (props) => {

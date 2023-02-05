@@ -3,7 +3,7 @@ import "./Box.css"
 
 const Features = () => {
     return (
-        <div className="Something">
+        <div className="App">
             <h1>Features</h1>
             <div className="grid">
                 <div className="box box1"></div>
