@@ -1,31 +1,98 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import React from "react";
-import "./Name.css"
-import {Card} from "react-bootstrap";
+import * as React from 'react';
+import { createTheme } from '@mui/material/styles';
+import Grid from "@mui/material/Grid";
+import {Button, Card, CardActions, CardContent, CardMedia, Typography} from "@mui/material";
 
-const MoreDeets = () => {
-  const cardInfo = [
-    {image:"https://i.pinimg.com/736x/a7/5d/9a/a75d9a79054de1f58cc2bdb27da5128a--pretty-kids-cute-kids.jpg", title: "Darren Zheng", text: "Major: CMDA"},
-    {image:"https://i.pinimg.com/originals/4b/d8/f5/4bd8f596f0deec1dde697982d0c98282.jpg", title: "Julia Chen", text: "Major: CS"},
-    {image:"https://content.thriveglobal.com/wp-content/uploads/2020/06/07-Kid-Asian-Alamy-XDKY6P.jpg", title: "Alex Wallace", text: "Major: CS"},
-    {image:"https://pbs.twimg.com/profile_images/550172568918188032/CudjFm9U.jpeg", title: "Gawain Zhang", text: "Major: CMDA"},
-  ]
-  const renderCard = (card, index) => {
-    return(
-      <Card style={{ width: '18rem' }} key={index} className= "box">
-        <Card.Img variant="top" src="holder.js/100px180" src={card.image}/>
-        <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
-          <Card.Text>
-            {card.text}
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    )
-  }
+const Name = (props) => {
+  return (
+      <Grid container spacing={2} marginTop={20} marginLeft={2}>
+        <Grid item xs={3} md={3}>
+        <Card sx={{ maxWidth: 345 }}>
 
-  return <div className="grid">{cardInfo.map(renderCard)}</div>
-     
-}
+        <CardMedia
+          component="img"
+          height="140"
+          image="https://content.thriveglobal.com/wp-content/uploads/2020/06/07-Kid-Asian-Alamy-XDKY6P.jpg"
+          alt="Darren Zheng"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Darren Zheng
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Junior, CMDA Major
+          </Typography>
+        </CardContent>
+      
+    </Card>
+ 
+        </Grid>
+        <Grid item xs={3} md={3}>
+        <Card sx={{ maxWidth: 345 }}>
 
-export default MoreDeets;
+        <CardMedia
+          component="img"
+          height="140"
+          image="https://content.thriveglobal.com/wp-content/uploads/2020/06/07-Kid-Asian-Alamy-XDKY6P.jpg"
+          alt="Julia Chen"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Julia Chen
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Junior, CS Major
+          </Typography>
+        </CardContent>
+    </Card>
+ 
+        </Grid>
+        <Grid item xs={3} md={3}>
+        <Card sx={{ maxWidth: 345 }}>
+      
+        <CardMedia
+          component="img"
+          height="140"
+          image="https://content.thriveglobal.com/wp-content/uploads/2020/06/07-Kid-Asian-Alamy-XDKY6P.jpg"
+          alt="Alex Wallace"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Alex Wallace
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Junior, CS Major
+          </Typography>
+        </CardContent>
+      
+    </Card>
+ 
+        </Grid>
+        <Grid item xs={3} md={3}>
+        <Card sx={{ maxWidth: 345 }}>
+      
+        <CardMedia
+          component="img"
+          height="140"
+          image="https://content.thriveglobal.com/wp-content/uploads/2020/06/07-Kid-Asian-Alamy-XDKY6P.jpg"
+          alt="Gawain Zheng"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Gawain Zheng
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Junior, CMDA Major
+          </Typography>
+        </CardContent>
+      
+    </Card>
+         
+        </Grid>
+      </Grid>
+  );
+ 
+ }
+ 
+ export default Name;
+ 
