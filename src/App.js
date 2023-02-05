@@ -6,12 +6,16 @@ import Grid from '@mui/material/Grid';
 import FoodList from "./Components/FoodList/FoodList";
 import FoodPlaces from "./Components/FoodPlaces/FoodPlaces";
 import About from './Components/About/About.js';
+import Name from './Components/Name/Name.js';
+import Features from './Components/Features/Features';
 
 function App() {
   return (
     <div className="App">
-      <Timeline></Timeline>
-        <Grid container spacing={2}>
+      {/* <Timeline></Timeline> */}
+      <Features></Features>
+      {/* <Name></Name> */}
+        {/* <Grid container spacing={2}>
             <Grid item xs={5} md={5}>
                 <Grid container spacing={0}>
                     <Grid item xs={12} md={12}>
@@ -28,9 +32,9 @@ function App() {
             <Grid item xs={5} md={5}>
                 <Tracker></Tracker>
             </Grid>
-        </Grid>
-      <Background></Background>
-      <About></About>
+        </Grid> */}
+      {/* <Background></Background> */}
+      {/* <About></About> */}
     </div>
   );
 }

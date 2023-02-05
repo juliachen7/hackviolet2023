@@ -1,6 +1,7 @@
 import './About.css';
 import React, {Fragment} from "react";
 
+
 const About = () => {
   return (
     // <div className="about">
@@ -9,11 +10,12 @@ const About = () => {
     //         <p> this paragraph will be about our website</p>
     //     </div>
     // </div>
+
     <Fragment>
+  
     <section className="about">
     <div className = "row">
-
-
+    
     <div className="column">
         <div className="about-info">
             <div className="main-title">
@@ -23,15 +25,21 @@ const About = () => {
             <p> test idk what this is</p>
             <p> this is also test</p>
         </div>
-        <div className="personal-info">
+        {/* <div className="personal-info">
             <div className="info-row">
 
             <div className="col"> <p>Name: <span>Darren Zheng</span></p></div>
-            <div className="col"> <p>Major: <span>Input major</span></p></div>
+            <div className="col"> <p>Major: <span>CMDA</span></p></div>
+            <div className="col"> <p>Name: <span>Darren Zheng</span></p></div>
+            <div className="col"> <p>Major: <span>CS</span></p></div>
+            <div className="col"> <p>Name: <span>Alex Wallace</span></p></div>
+            <div className="col"> <p>Major: <span>CS</span></p></div>
+            <div className="col"> <p>Name: <span>Gawain Zhang</span></p></div>
+            <div className="col"> <p>Major: <span>CMDA</span></p></div>
 
             </div>
 
-        </div>
+        </div> */}
     </div>
         
     </div>
