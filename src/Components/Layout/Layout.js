@@ -1,6 +1,6 @@
 import './Layout.css';
 
-import {ReactComponent as CogIcon } from '../../Icons/cog.svg';
+import {ReactComponent as LoginIcon } from '../../Icons/login.svg';
 import {ReactComponent as LogoutIcon } from '../../Icons/logout.svg';
 import {ReactComponent as AboutIcon } from '../../Icons/about.svg';
 // import { GoogleLogin } from '@react-oauth/google';
@@ -52,7 +52,7 @@ export default function Layout() {
       <div>
         <Navbar>
             <div onClick={() => login()} style={{marginTop: '8px'}}>
-              <NavItem icon={<CogIcon/>}/>
+              <NavItem icon={<LoginIcon/>}/>
             </div>
             <div style={{marginTop: '8px'}}>
                 <NavItem icon={<AboutIcon/>} path="/about"/>
