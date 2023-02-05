@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div>
             <Layout></Layout>
-            <MainLayout></MainLayout>
+            <MainLayout phase={1}></MainLayout>
             <Timeline></Timeline>
             <Background></Background>
         </div>
