@@ -14,6 +14,7 @@ const FoodPlaces = (props) => {
     // from mui docs
     const commonStyles = {
         // bgcolor: 'background.paper',
+        bgcolor: 'lavender',
         borderColor: 'text.primary',
         m: 1,
         border: 1,
