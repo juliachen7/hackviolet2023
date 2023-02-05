@@ -2,12 +2,12 @@
     color: #2cbdb8;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    line-height: 1;
-    font-size: 40px;
+    line-height: 0;
+    font-size: 36px;
     position: relative;
 }
 
 .about p{
     color: #010101;
-    font-size: 20px;
+    font-size: 16px;
 }

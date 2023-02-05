@@ -5,9 +5,9 @@ import {Button, Card, CardActions, CardContent, CardMedia, Typography} from "@mu
 
 const Name = (props) => {
   return (
-      <Grid container spacing={2} marginTop={20} marginLeft={2}>
+      <Grid container spacing={2} marginTop={10} marginLeft={2}>
         <Grid item xs={3} md={3}>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345,borderRadius:'16px'}}>
 
         <CardMedia
           component="img"
