@@ -1,16 +1,15 @@
-import './App.css';
-import Timeline from './Components/Timeline/Timeline.js';
-import Background from './Components/Background/Background.js';
+import './About.css';
+// import Timeline from './Components/Timeline/Timeline.js';
+// import Background from './Components/Background/Background.js';
 
-
-function App() {
+function About() {
   return (
     <div className="App">
         
-      <Timeline></Timeline>
-      <Background></Background>
+      {/* <Timeline></Timeline>
+      <Background></Background> */}
     </div>
   );
 }
 
-export default App;
+export default About;
