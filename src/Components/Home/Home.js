@@ -11,7 +11,7 @@ export default function Home() {
         <div>
             <Layout></Layout>
             <MainLayout></MainLayout>
-            {/* <Timeline></Timeline> */}
+            <Timeline></Timeline>
             <Background></Background>
         </div>
     )
