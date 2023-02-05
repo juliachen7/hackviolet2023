@@ -51,11 +51,13 @@ export default function Layout() {
     return (
       <div>
         <Navbar>
-            <div onClick={() => login()}>
+            <div onClick={() => login()} style={{marginTop: '8px'}}>
               <NavItem icon={<CogIcon/>}/>
             </div>
-            <NavItem icon={<AboutIcon/>} path="/about"/>
-            <div onClick={() => logOut()}>
+            <div style={{marginTop: '8px'}}>
+                <NavItem icon={<AboutIcon/>} path="/about"/>
+            </div>
+            <div onClick={() => logOut()} style={{marginTop: '8px'}}>
               <NavItem icon={<LogoutIcon/>}/>
             </div>
         </Navbar>
