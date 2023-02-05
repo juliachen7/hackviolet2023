@@ -1,15 +1,31 @@
 import './About.css';
-// import Timeline from './Components/Timeline/Timeline.js';
-// import Background from './Components/Background/Background.js';
+import React, {Fragment} from "react";
 
-function About() {
+
+const About = () => {
   return (
-    <div className="App">
+    
+    <Fragment>
+  
+    <section className="about">
+    <div className = "row">
+    
+    <div className="column">
+        <div className="about-info">
+            <div className="main-title">
+                <h1> About Us </h1>
+            </div>
+            <p> this is also test</p>
+        </div>
         
-      {/* <Timeline></Timeline>
-      <Background></Background> */}
     </div>
-  );
+        
+    </div>
+
+    </section>
+    </Fragment>
+
+  )
 }
 
 export default About;
