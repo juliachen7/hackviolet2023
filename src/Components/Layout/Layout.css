@@ -34,11 +34,17 @@
     justify-content: flex-end;
   }
   
+  
+
   .nav-item {
     width: calc(var(--nav-size) * 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  #google {
+    width: 1220px;
   }
   
   /* Icon Button */
